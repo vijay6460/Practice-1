@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 0.8%;
+    font-family: Arial, Helvetica, sans-serif;
+   padding: 0.8%;
+}
+.one{
+    background-color: black;
+    padding: 0.1%;
+}
+
+a:hover{
+    background-color:grey;    
+    }
+
+
+.search{
+    margin-left: 4%;
+    width: 18%;
+    padding: 0.6%;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-width: 1px;
+    color: white;
+    border-style: none;
+    outline: none;
+}

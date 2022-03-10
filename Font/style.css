@@ -1,0 +1,13 @@
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: italic;
+font-style: oblique;
+font-weight: bold;
+font-variant: small-caps;
+font-size: 2em;
+/* (16px=1em) */
+
+font: italic bold small-caps 20px san-serif;
+
+}
+

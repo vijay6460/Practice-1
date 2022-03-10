@@ -1,0 +1,30 @@
+body{
+    color: black;
+    background-color: #254845;
+    border-radius: 80px;
+ 
+   
+    
+}
+
+form{
+background-color:#325875;
+border: 1px solid white;
+width: 50%;
+border-radius: 20px;
+text-align: center;
+margin:auto;
+padding: 20px;
+}
+
+.one{
+   padding: 1%;
+   width: 70%;
+   
+}
+
+.fine{
+    width: 30%;
+    margin-left: -43%;
+}
+

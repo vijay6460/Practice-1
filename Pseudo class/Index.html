@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class and position</title>
+  <style>
+       a:link{/* Not Visited*/
+          color: green;
+      }
+      a:visited{/* Already visited*/
+          color: yellow;
+      }
+      a:active{/*selected state state*/
+          color: white;}
+a:hover{/* Mover hover*/
+    color: red;
+    background-color: black;
+
+} 
+.static{
+    position: static;
+    border: 1px solid red;
+}
+.relative{
+    position: relative;
+    border: 2px solid black;
+    /* left:5%;(This can be done but there is draw back we wont scroll horizontall but we will scroll the page in vertical direction using this is the main draw back in this left and right direction) */
+    width: 40%;
+
+}
+.fixed{
+    position: fixed;
+    border: 3px solid green;
+bottom: 1%; /* used to move to the bottom */
+/* similarly use for the top, right, left*/
+
+}
+
+.absolute{
+    /*same as relative */
+border: 2px solid red;
+position: absolute;
+}
+
+.sticky{
+/* Same as like fiexd*/   
+ border: 2px solid yellow;
+}
+
+
+
+  </style>
+</head>
+<body>
+    <!-- Mainly used for the link  -->
+  <!-- Pseudo class selectors
+    Pseudo class property
+    property:value
+Properties having related to pseudo
+1. Link
+2. visited
+3. Hover
+4.Active
+-->
+<!-- <a href="#">Home</a>
+<a href="#">Contact Us</a>
+<a href="#">About Us</a>
+<a href="#">Locate Us</a> -->
+
+
+<h1>Position - is one type of property is used to place a perticular element at a specific position</h1>
+<h2>there are 5 value are there</h2>
+<h3>static</h3>
+<p class="static">this is for the static pragraph</p>
+<h3>relative</h3>
+<p class="relative"> This is for a Relative Paragraph used to move the position of a content to left right or top bottom</p>
+<h3>fixed</h3>
+<p class="fixed">This is used to fix the content in that position </p>
+<br><h3>absolute</h3>
+<p class="absolute">This is used for absolute </p>
+<h3>sticky</h3>
+<p class="sticky">Used for the sticky</p>
+
+
+
+
+</body>
+</html>

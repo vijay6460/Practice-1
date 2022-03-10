@@ -1,0 +1,67 @@
+.sample ul li{
+    display: inline;
+list-style-type: none;
+}
+.sample a{
+    text-decoration: none;
+    color: black;
+}
+
+.onee{
+    display: inline;
+}
+.sample{
+    background-color: red;
+    width: 40%;
+    display: inline-block;
+}
+.samp{
+    background-color: aqua;
+    width: 40%;
+    display: inline-block;
+}
+
+
+li{/* displayes in the same line */
+    display: inline; /* comes in the same line */
+    font-weight: bold;
+}
+
+h2{
+    display: inline;
+}
+
+
+.one{
+    background-color: red;
+    width: 20%;
+    color: black;
+    /* display: inline-block; */
+    display: flex;
+}
+.two{
+    background-color:yellow;
+    width:20%;
+    color: black;
+    /* display: inline-block; */
+    display: flex;
+
+
+}
+.three{
+    background-color: blue;
+    width: 20%;
+    /* display: inline-block; */
+    color: black;
+    display: flex;
+
+}
+.four{
+    background-color: brown;
+    width: 20%;
+    /* display: inline-block; */
+    color: black;
+    display: flex;
+
+}
+
